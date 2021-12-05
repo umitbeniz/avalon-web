@@ -1,0 +1,29 @@
+{
+  "name": "avalon-web",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm run open",
+    "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/build\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "http-server": "^0.12.3"
+  },
+  "dependencies": {
+    "build": "^0.1.4",
+    "clipboard": "^2.0.8",
+    "npm-build": "0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umitbeniz/avalon-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umitbeniz/avalon-web/issues"
+  },
+  "homepage": "https://github.com/umitbeniz/avalon-web#readme"
+}
